@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matriz - Caça Palavras</title>
+</head>
+<body>
+
+    <!--Titulo-->
+    <div class='titulo'>
+        <p><b>Caça Palavras</b></p>
+    </div>
+    
+    <!--Texto-->
+    <div class='texto'>
+        <p>Ache as palavras relacionadas à comidas do nordeste</p>
+    </div>
+
+
+    <!--Palavras para achar-->
+    <div class='palavras'>
+
+        <table border="0" align="center" width="900px">
+            <tr>
+                <td bgcolor="#CDF5F6">Tapioca</td>
+                <td bgcolor="#CBE4F9">Acarajé</td>
+                <td bgcolor="#EF92B9">Vatapá</td>
+                <td bgcolor="#D6CDEA">Moqueca</td>
+                <td bgcolor="#76BFA2">Cuscuz</td>
+            </tr>
+            <tr>
+                <td bgcolor="#EFF9DA">Caranguejada</td>
+                <td bgcolor="#F9EBDF">Caruru</td>
+                <td bgcolor="#F9D8D6">Sarapatel</td>
+                <td bgcolor="#DEE2D9">Cartola</td>
+                <td bgcolor="#FFCA80">Maçunim</td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Caça Palavras-->
+    <div class='conteudo'>
+
+    <!--Imagens-->
+    <img src="img/monica.png" class="monica">
+    <img src="img/cebola.png" class="cebola">
+    <img src="img/magali.png" class="magali">
+    <img src="img/cascao.png" class="cascao">
+
+    <table align="center" width="1100px">
+        <script>
+            matriz = new Array();
+            matriz = [
+                [['X'],['C', 'c2'],["A", 'c2'],["R", 'c2'],["A", 'c2'],["N", 'c2'],["G", 'c2'],["U", 'c4'],["E", 'c2'],["J", 'c2'],["A", 'c2'],["D", 'c2'],["A", 'c2'],["C", 'c8']],   
+                [['S', 'c6'],['G'],["E"],["P"],["N"],["E"],["A"],["R", 'c4'],["I"], ["W"],["L"],["S"],["A", 'c8'],["U", 'c9']],
+                [['A', 'c6'],['I',],["O",],["U",],["H",],["T",],["I",],["U", 'c4'],["L",],["C",],["X",],["R", 'c8'],["A", 'c7'],["S", 'c9']],
+                [['R', 'c6'],['B',],["A",],["V",],["T",],["C",],["E",],["R", 'c4'],["H",],["Y",],["T", 'c8'],["Z",],["C", 'c7'],["C", 'c9']],
+                [['A', 'c3'],['C', 'c3'],["A", 'c3'],["R", 'c3'],["A", 'c3'],["J", 'c3'],["E", 'c3'],["A", 'c4'],["S",],["O", 'c8'],["O",],["A", 'c5'],["E", 'c7'],["U", 'c9']],
+                [['P', 'c6'],['L',],["M",],["N",],["A",],["E",],["Q",],["C", 'c4'],["L", 'c8'],["R",],["Y",],["P", 'c5'],["U", 'c7'],["Z", 'c9']],
+                [['A', 'c6'],['E',],["Q",],["S",],["U",],["M",],["L",],["A", 'c8'], ["X",],["C",],["T",],["A", 'c5'],["Q", 'c7'],["V"]],
+                [['T', 'c1'],['A', 'c1'],["P", 'c1'],["I", 'c1'],["O", 'c1'],["C", 'c1'],["A", 'c1'],["N",],["I",],["W",],["R",],["T", 'c5'],["O", 'c7'],["S"]],
+                [['E', 'c6'],['G',],["J",],["K",],["I",],["N",],["M", 'c10'],["I", 'c10'],["N", 'c10'],["U", 'c10'],["Ç", 'c10'],["A", 'c10'],["M", 'c10'],["V"]],
+                [['L', 'c6'],['C',],["H",],["G",],["N",],["I",],["P",],["B",],["O",],["L",],["S",],["V", 'c5'],["A",],["V"]],
+            ];
+
+            for(i=0;i<14;i++) {
+                document.write('<tr>');
+                    for(j=0;j<14;j++) {
+                        document.write("<td class='" + matriz[i][j][1] + "'>" + matriz[i][j][0] + "</td>");
+                    }
+                document.write('</tr>');
+            }
+        </script>
+    </table>
+    </div>
+</body>
+</html>

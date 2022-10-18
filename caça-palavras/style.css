@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+
+.texto{
+    font-size: 22px;
+    color:black;
+    text-align: center;
+}
+
+.palavras{
+    margin-top: 3%;
+    font-size: 22px;
+}
+
+.conteudo{
+    margin-top: 3%;
+    font-size: 48px;
+}
+
+.monica{
+    width: 390px;
+    margin-top: 13%;
+    margin-left: 28%;
+    position: absolute;
+}
+
+.cebola{
+    width: 240px;
+    margin-top: 10%;
+    margin-left: -45%;
+    position: absolute;
+}
+
+.cascao{
+    width: 350px;
+    margin-top: -10%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+.magali{
+    width: 380px;
+    margin-top: -13%;
+    margin-left: -48%;
+    position: absolute;
+}
+
+/*cores*/
+.c1 {
+    background-color: #CDF5F6;
+    color: black;
+}
+
+.c2 {
+    background-color: #EFF9DA;
+    color: black;
+}
+
+.c3 {
+    background-color: #CBE4F9;
+    color: black;
+}
+
+.c4 {
+    background-color: #F9EBDF;
+    color: black;
+}
+
+.c5 {
+    background-color: #EF92B9;
+    color: black;
+}
+
+.c6 {
+    background-color: #F9D8D6;
+    color: black;
+}
+
+.c7 {
+    background-color: #D6CDEA;
+    color: black;
+}
+
+.c8 {
+    background-color: #DEE2D9;
+    color: black;
+}
+
+.c9 {
+    background-color: #76BFA2;
+    color: black;
+}
+
+.c10 {
+    background-color: #FFCA80;
+    color: black;
+}
